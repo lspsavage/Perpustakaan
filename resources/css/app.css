@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.swal2-popup {
+    border-radius: 68px !important; /* More rounded popup */
+}
+
+.swal2-confirm,
+.swal2-cancel {
+    border-radius: 100px !important; /* More rounded buttons */
+}
