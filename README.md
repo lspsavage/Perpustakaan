@@ -40,7 +40,31 @@ Proyek ini adalah aplikasi web perpustakaan yang dirancang untuk memudahkan mana
 - **Formulir Pengembalian Buku:** Untuk mengelola pengembalian buku oleh anggota.
 - **Daftar Pengembalian Buku:** Memantau buku yang sudah dikembalikan dan memastikan statusnya diperbarui.
 
-## **Teknologi yang Digunakan**
+## **Cara Menggunakan**
+
+1. **Clone Repository:**
+   ```bash
+   git clone https://github.com/username/nama-repository.git
+2. **Instal Dependensi:**
+   ```bash
+   composer install
+   npm install && npm run dev
+   ```
+3. **Konfigurasi File Environment:**
+   - Duplikat file `.env.example` menjadi `.env` dan sesuaikan konfigurasi database.
+4. **Generate Key Aplikasi:**
+   ```bash
+   php artisan key:generate
+   ```
+5. **Migrasi dan Seed Database:**
+   ```bash
+   php artisan migrate --seed
+   ```
+6. **Jalankan Aplikasi:**
+   ```bash
+   php artisan serve
+   ```
+
 
 - **Frontend:** HTML, CSS (Tailwind CSS), JavaScript
 - **Backend:** Laravel Framework
